@@ -30,7 +30,7 @@ function generateSVGData(data) {
 //   </svg>`
     return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     ${shape.render()}
-    <text x="115" y="140" font-size="40" fill="${data.nameColor}">${data.name}</text>
+    <text x="110" y="110" font-size="40" fill="${data.nameColor}">${data.name}</text>
   </svg>`;
 
 }
