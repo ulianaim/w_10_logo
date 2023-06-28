@@ -11,8 +11,8 @@ function generateSVGData(data) {
     case "Triangle":
       shape = new Triangle();
       shape.setColor(data.shapeColor);
-      x = 115; 
-      y = 130;
+      x = 110; 
+      y = 150;
       break;
 
     case "Circle":
@@ -64,13 +64,6 @@ inquirer
   ])
   .then((answers) => {
     const SVGData = generateSVGData(answers);
-
-    //     let x = 150, y = 125;
-    // if (shape === 'Triangle') {
-    //   x = 115, y = 140;
-    // } else if (shape === 'Square') {
-    //   x = 90, y = 115;
-    // } 
 
     fs.writeFile('./logi.svg', SVGData, (err) =>
       err ? console.log(err) : console.log('Successfully created logo')

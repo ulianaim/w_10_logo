@@ -23,9 +23,14 @@ THEN an SVG file is created named `logo.svg`
 AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
-```
+
 Here is the images of the created logos:
 
+
  ![alt text](./assets/Greenshot%202023-06-28%2019.01.50.png)
+ ![alt text](./assets/Greenshot%202023-06-28%2019.03.56.png)
+ ![alt text](./assets/Greenshot%202023-06-28%2019.04.47.png)
 
 Video with demostration of program:
+
+https://drive.google.com/file/d/1fPwnYDGrQBl7Eycf2RHAl7hrZjINMLPu/view
