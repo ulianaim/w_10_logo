@@ -12,13 +12,13 @@ function generateSVGData(data) {
       shape = new Triangle();
       shape.setColor(data.shapeColor);
       x = 115; 
-      y = 140;
+      y = 130;
       break;
 
     case "Circle":
       shape = new Circle();
       shape.setColor(data.shapeColor);
-      x = 90;
+      x = 115;
       y = 115;
       break;
 
